@@ -1,8 +1,8 @@
 let pokemonList = [
-    { name: 'Pikachu', height: 0.4, types: 'electric' },
+    { name: 'Pikachu', height: 0.4, types: ['electric'] },
     { name: 'Ivysaur', height: 1, types: ['grass', 'poison'] },
-    { name: 'Squirtle', height: 0.5, types: 'water' },
-    { name: 'Charmander', height: 0.6, types: 'fire' }
+    { name: 'Squirtle', height: 0.5, types: ['water'] },
+    { name: 'Charmander', height: 0.6, types: ['fire'] }
 ];
 
 //this is a loop for pokemonList which hihglights one with a bigger size
