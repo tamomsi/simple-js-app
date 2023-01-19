@@ -8,8 +8,8 @@ let pokemonList = [
 //this is a loop for pokemonList which hihglights one with a bigger size
 for (let i = 0; i < pokemonList.length; i++) {
     if (pokemonList[i].height < 1) {
-        document.write(pokemonList[i].name + '(height:' + ' ' + pokemonList[i].height + ')<br>');
+        document.write(pokemonList[i].name + ' ' + '(height:' + ' ' + pokemonList[i].height + ')<br>');
     } else if (pokemonList[i].height >= 1) {
-        document.write(pokemonList[i].name + '(height:' + ' ' + pokemonList[i].height + ') -Wow, that\'s big!<br>');
+        document.write(pokemonList[i].name + ' ' + '(height:' + ' ' + pokemonList[i].height + ') -Wow, that\'s big!<br>');
     }
 }
