@@ -47,3 +47,18 @@ h1 {
 .page-footer__item {
     color: var(--secondary-color)
 }
+
+.social-media-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: var(--padding-zero);
+    /*width: 10%;*/
+}
+
+.social-media-list li {
+    margin: 2px;
+}
+
