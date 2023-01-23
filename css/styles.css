@@ -32,3 +32,18 @@ h1 {
     font-size: var(--font-size-h1);
     font-weight: 700;
    }
+
+   .page-footer {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--primary-color);
+    position: sticky;
+    bottom: 0;
+}
+
+.page-footer__item {
+    color: var(--secondary-color)
+}
