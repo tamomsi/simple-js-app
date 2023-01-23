@@ -151,3 +151,8 @@ h1 {
 a {
     color: var(--light-yellow);
 }
+
+a:visited {
+    color: var(--secondary-color);
+}
+
