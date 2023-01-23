@@ -160,3 +160,7 @@ a:hover, a:focus {
     /* no underlining when you hover on the link*/
     text-decoration: none;
 }
+
+a:active {
+    color: var(--fire);
+}
