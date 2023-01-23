@@ -4,3 +4,15 @@
    grid__item color: lightgrey;
    white: #ffffff;
 */
+
+:root {
+    --primary-color: #002263;
+    --secondary-color: #eceaae;
+    --light-yellow: #fcffad;
+    --fire: #f76414;
+    --white: #ffffff;
+    --padding-zero: 0;
+    --font-size-h1: 30px;
+  }
+
+  
