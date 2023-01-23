@@ -108,3 +108,21 @@ h1 {
     max-width: 600px;
 }
 
+.navigation-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation-list li {
+    display: inline-block;
+    margin-left: 15px;   
+}
+
+.navigation-list__item {
+    font-weight: bold;
+}
+
+.navigation-list__item--active {
+    text-decoration: none;
+}
+
