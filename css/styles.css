@@ -147,3 +147,7 @@ h1 {
 .pokemon-table tbody tr {
     border-top: 1px solid var(--primary-color);
 }
+
+a {
+    color: var(--light-yellow);
+}
