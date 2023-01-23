@@ -156,3 +156,7 @@ a:visited {
     color: var(--secondary-color);
 }
 
+a:hover, a:focus {
+    /* no underlining when you hover on the link*/
+    text-decoration: none;
+}
