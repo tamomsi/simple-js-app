@@ -15,4 +15,7 @@
     --font-size-h1: 30px;
   }
 
-  
+  * {
+    box-sizing: border-box;
+}
+
