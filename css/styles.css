@@ -126,3 +126,16 @@ h1 {
     text-decoration: none;
 }
 
+.pokemon-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border: thick solid var(--primary-color);
+    max-width: 50%;
+}
+
+.pokemon-table thead tr {
+    color: var(--primary-color);
+    text-align: left;
+}
+
