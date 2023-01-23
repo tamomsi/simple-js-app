@@ -139,3 +139,8 @@ h1 {
     text-align: left;
 }
 
+.pokemon-table td {
+    padding: 9px 15px;
+    color: var(--primary-color);
+}
+
