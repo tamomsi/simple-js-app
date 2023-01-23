@@ -62,3 +62,19 @@ h1 {
     margin: 2px;
 }
 
+.page-header {
+    display: flex;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.page-header__item {
+    flex: 0 1 200px;
+}
+
