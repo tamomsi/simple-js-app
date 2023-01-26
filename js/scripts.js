@@ -31,7 +31,7 @@ pokemonRepository.add({ name: 'Pikachu' });
 // }
 //}
 
-// this is a forEach loop
+// this was a forEach loop before
 //pokemonList.forEach(function (user) {
 //if (user.height < 1) {
 //  document.write(user.name + ' ' + '(height:' + ' ' + user.height + ')<br>');
@@ -40,6 +40,7 @@ pokemonRepository.add({ name: 'Pikachu' });
 // }
 //})
 
+//this is a new ForEach loop
 pokemonRepository.getAll().forEach(function (user) {
     if (user.height < 1) {
         document.write(user.name + ' ' + '(height:' + ' ' + user.height + ')<br>');
