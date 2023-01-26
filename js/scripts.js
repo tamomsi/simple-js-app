@@ -14,6 +14,7 @@ let pokemonList = [
 // }
 //}
 
+// this is a forEach loop
 pokemonList.forEach(function (user) {
     if (user.height < 1) {
         document.write(user.name + ' ' + '(height:' + ' ' + user.height + ')<br>');
