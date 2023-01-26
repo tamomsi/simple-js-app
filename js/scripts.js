@@ -20,6 +20,7 @@ let pokemonRepository = (function () {
 })();
 
 console.log(pokemonRepository.getAll());
+pokemonRepository.add({ name: 'Pikachu' });
 
 //this is a loop for pokemonList which hihglights one with a bigger size
 //for (let i = 0; i < pokemonList.length; i++) {
