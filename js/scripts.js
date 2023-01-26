@@ -1,9 +1,25 @@
-let pokemonList = [
-    { name: 'Pikachu', height: 0.4, types: ['electric'] },
-    { name: 'Ivysaur', height: 1, types: ['grass', 'poison'] },
-    { name: 'Squirtle', height: 0.5, types: ['water'] },
-    { name: 'Charmander', height: 0.6, types: ['fire'] }
-];
+let pokemonRepository = (function () {
+    let pokemonList = [
+        { name: 'Pikachu', height: 0.4, types: ['electric'] },
+        { name: 'Ivysaur', height: 1, types: ['grass', 'poison'] },
+        { name: 'Squirtle', height: 0.5, types: ['water'] },
+        { name: 'Charmander', height: 0.6, types: ['fire'] }
+    ];
+
+    function getAll() {
+        return pokemonList;
+    }
+    function add(pokemon) {
+        pokemonList.push(pokemon);
+    }
+
+    return {
+        add: add,
+        getAll: getAll
+    }
+})();
+
+console.log(pokemonRepository.getAll());
 
 //this is a loop for pokemonList which hihglights one with a bigger size
 //for (let i = 0; i < pokemonList.length; i++) {
