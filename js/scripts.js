@@ -13,6 +13,10 @@ let pokemonRepository = (function () {
         pokemonList.push(pokemon);
     }
 
+    function showDetails(pokemon) {
+        console.log(pokemon);
+    }
+
     function addListItem(pokemon) {
         let pokemonList = document.querySelector('.pokemon-list');
         let listItem = document.createElement('li');
@@ -32,6 +36,6 @@ let pokemonRepository = (function () {
 
 console.log(pokemonRepository.getAll());
 
-pokemonRepository.getAll().forEach(function (user) {
+pokemonRepository.getAll().forEach(function (pokemon) {
     pokemonRepository.addListItem(pokemon);
 })
