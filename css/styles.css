@@ -178,3 +178,11 @@ a:active {
     border-radius: 50%;
     transition: 0.4s opacity;
     }
+
+    .button-class:hover,
+.button-class:focus {
+    background-color: var(--primary-color);
+    color: var(--light-yellow);
+    cursor: pointer;
+    opacity: 0.8;
+}
