@@ -22,25 +22,7 @@ let pokemonRepository = (function () {
 console.log(pokemonRepository.getAll());
 pokemonRepository.add({ name: 'Pikachu' });
 
-//this is a loop for pokemonList which hihglights one with a bigger size
-//for (let i = 0; i < pokemonList.length; i++) {
-// if (pokemonList[i].height < 1) {
-// document.write(pokemonList[i].name + ' ' + '(height:' + ' ' + pokemonList[i].height + ')<br>');
-// } else if (pokemonList[i].height >= 1) {
-//    document.write(pokemonList[i].name + ' ' + '(height:' + ' ' + pokemonList[i].height + ') -Wow, that\'s big!<br>');
-// }
-//}
-
-// this was a forEach loop before
-//pokemonList.forEach(function (user) {
-//if (user.height < 1) {
-//  document.write(user.name + ' ' + '(height:' + ' ' + user.height + ')<br>');
-//} else if (user.height >= 1) {
-//   document.write(user.name + ' ' + '(height:' + ' ' + user.height + ') -Wow, that\'s big!<br>');
-// }
-//})
-
-//this is a new ForEach loop
+//this is a ForEach loop
 pokemonRepository.getAll().forEach(function (user) {
     if (user.height < 1) {
         document.write(user.name + ' ' + '(height:' + ' ' + user.height + ')<br>');
