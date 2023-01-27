@@ -13,6 +13,16 @@ let pokemonRepository = (function () {
         pokemonList.push(pokemon);
     }
 
+    function addListItem(pokemon) {
+        let pokemonList = document.querySelector('.pokemon-list');
+        let listItem = document.createElement('li');
+        let button = document.createElement('button');
+        button.innerText = pokemon.name;
+        button.classList.add('button-class')
+        listItem.appendChild(button);
+        pokemonList.appendChild(listItem);
+    };
+
     return {
         add: add,
         getAll: getAll
@@ -24,11 +34,5 @@ pokemonRepository.add({ name: 'Pikachu' });
 
 //this is a ForEach loop
 pokemonRepository.getAll().forEach(function (user) {
-    let pokemonList = document.querySelector('.pokemon-list');
-    let listItem = document.createElement('li');
-    let button = document.createElement('button');
-    button.innerText = pokemon.name;
-    button.classList.add('button-class')
-    listItem.appendChild(button);
-    pokemonList.appendChild(listItem);
+
 })
