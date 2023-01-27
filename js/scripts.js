@@ -33,7 +33,6 @@ let pokemonRepository = (function () {
 console.log(pokemonRepository.getAll());
 pokemonRepository.add({ name: 'Pikachu' });
 
-//this is a ForEach loop
 pokemonRepository.getAll().forEach(function (user) {
-
+    pokemonRepository.addListItem(pokemon);
 })
