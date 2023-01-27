@@ -24,9 +24,11 @@ pokemonRepository.add({ name: 'Pikachu' });
 
 //this is a ForEach loop
 pokemonRepository.getAll().forEach(function (user) {
-    if (user.height < 1) {
-        document.write(user.name + ' ' + '(height:' + ' ' + user.height + ')<br>');
-    } else if (user.height >= 1) {
-        document.write(user.name + ' ' + '(height:' + ' ' + user.height + ') -Wow, that\'s big!<br>');
-    }
+    let pokemonList = document.querySelector('.pokemon-list');
+    let listItem = document.createElement('li');
+    let button = document.createElement('button');
+    button.innerText = pokemon.name;
+    button.classList.add('button-class')
+    listItem.appendChild(button);
+    pokemonList.appendChild(listItem);
 })
