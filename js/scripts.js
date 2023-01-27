@@ -31,7 +31,6 @@ let pokemonRepository = (function () {
 })();
 
 console.log(pokemonRepository.getAll());
-pokemonRepository.add({ name: 'Pikachu' });
 
 pokemonRepository.getAll().forEach(function (user) {
     pokemonRepository.addListItem(pokemon);
