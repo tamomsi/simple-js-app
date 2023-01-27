@@ -164,3 +164,17 @@ a:hover, a:focus {
 a:active {
     color: var(--fire);
 }
+
+.button-class{
+    background-color: var(--light-yellow);
+    border: solid 2px;
+    color: var(--primary-color);
+    padding: 20%;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 2vw;
+    border-radius: 50%;
+    transition: 0.4s opacity;
+    }
