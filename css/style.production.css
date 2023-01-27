@@ -198,3 +198,53 @@ a:hover, a:focus {
 a:active {
     color: #f76414;
 }
+
+.button-class{
+    background-color: #fcffad;
+    border: solid 2px;
+    color: #002263;
+    padding: 20%;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 2vw;
+    border-radius: 50%;
+    -webkit-transition: 0.4s opacity;
+    -o-transition: 0.4s opacity;
+    transition: 0.4s opacity;
+    }
+
+    .button-class:hover {
+    background-color: #002263;
+    color: #fcffad;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+    .button-class:focus {
+    background-color: #002263;
+    color: #fcffad;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.pokemon-list{
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
