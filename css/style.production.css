@@ -22,7 +22,6 @@ body {
     font-weight: 400;
     font-size: calc(16px + 0.390625vw);
     line-height: 1.6;
-    margin: 0 10%;
     background-color: #eceaae
 }
 
@@ -47,6 +46,8 @@ h1 {
     background-color: #002263;
     position: sticky;
     bottom: 0;
+    margin: 0 5%;
+    height: 10%;
 }
 
 .page-footer__item {
@@ -82,7 +83,7 @@ h1 {
     display: flex;
     max-width: 100%;
     padding: 20px;
-    margin: auto;
+    margin: 0 5%;
     background-color: #002263;
     position: sticky;
     top: 0;
@@ -240,4 +241,88 @@ a:active {
     -webkit-column-gap: 50px;
        -moz-column-gap: 50px;
             column-gap: 50px;
+}
+
+.search-field{
+    color:#eceaae;
+    background-color:#002263;
+    border-color: #002263 20px;
+    border-radius: 10%;
+    width: 40%;
+}
+
+.search-text{
+    color: #002263;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+}
+
+#search-button{
+    color:#fcffad;
+    background-color: #002263;
+    border-radius: 10%;
+    width:20%;
+    margin-left: 1%;
+}
+
+.search{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.search-field::-webkit-input-placeholder{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    text-align: center;
+}
+
+.search-field::-moz-placeholder{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.search-field:-ms-input-placeholder{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    text-align: center;
+}
+
+.search-field::-ms-input-placeholder{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    text-align: center;
+}
+
+.search-field::placeholder{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+}
+
+main{
+    margin: 0 10%;
 }
