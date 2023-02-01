@@ -212,3 +212,11 @@ a:active {
     justify-content: center;
     text-align: center;
 }
+
+#search-button{
+    color:var(--light-yellow);
+    background-color: var(--primary-color);
+    border-radius: 10%;
+    width:20%;
+    margin-left: 1%;
+}
