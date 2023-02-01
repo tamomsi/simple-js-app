@@ -231,3 +231,7 @@ a:active {
     justify-content: center;
     text-align: center;
 }
+
+main{
+    margin: 0 10%;
+}
