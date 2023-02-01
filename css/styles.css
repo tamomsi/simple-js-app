@@ -204,3 +204,11 @@ a:active {
     border-radius: 10%;
     width: 40%;
 }
+
+.search-text{
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
