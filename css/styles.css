@@ -220,3 +220,8 @@ a:active {
     width:20%;
     margin-left: 1%;
 }
+
+.search{
+    display: flex;
+    justify-content: center;
+}
