@@ -198,8 +198,8 @@ a:active {
 }
 
 .search-field{
-    color:var(--primary-color);
-    background-color:var(--secondary-color);
+    color:var(--secondary-color);
+    background-color:var(--primary-color);
     border-color: var(--primary-color) 20px;
     border-radius: 10%;
     width: 40%;
