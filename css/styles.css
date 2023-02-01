@@ -225,3 +225,9 @@ a:active {
     display: flex;
     justify-content: center;
 }
+
+.search-field::placeholder{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
