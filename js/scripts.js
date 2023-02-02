@@ -45,7 +45,7 @@ let pokemonRepository = (function () {
         }).then(function (details) {
             item.imageUrl = details.sprites.front_default;
             item.height = details.height;
-            item.types = details.types;
+            item.weight = details.weight;
         }).catch(function (e) {
             console.error(e);
         });
@@ -77,9 +77,7 @@ let pokemonRepository = (function () {
 
             let contentElement = document.createElement('p');
 
-            let pokemonTypes = "";
-
-            contentElement.innerText = ('Height: ' + item.height + '\n' + '\n' + 'types: ' + pokemonTypes);
+            contentElement.innerText = ('Height: ' + item.height + '\n' + '\n' + 'weight: ' + item.weight);
 
             modal.appendChild(closeButtonElement);
             modal.appendChild(titleElement);
