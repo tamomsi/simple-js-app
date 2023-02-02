@@ -63,8 +63,8 @@ let pokemonRepository = (function () {
             let sprite = document.createElement('img');
             sprite.classList.add('sprite');
             sprite.src = item.imageUrl;
-            sprite.setAttribute("width", "400");
-            sprite.setAttribute("height", "250");
+            sprite.setAttribute("width", "200");
+            sprite.setAttribute("height", "200");
             sprite.setAttribute("alt", "Pokemon Photo");
 
             let closeButtonElement = document.createElement('button');
