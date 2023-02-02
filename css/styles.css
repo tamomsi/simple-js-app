@@ -266,3 +266,12 @@ main{
     border-radius: 50%;
     text-align: center;
   }
+
+  .modal-close {
+    float: right;
+    -webkit-appearance: none;
+    border: 0;
+    background: none;
+    color:var(--primary-color);
+    text-decoration: underline;
+  }
