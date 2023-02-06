@@ -68,7 +68,6 @@ h1 {
 }
 
 .page-header {
-    display: flex;
     max-width: 100%;
     padding: 20px;
     margin: 0 5%;
@@ -183,7 +182,6 @@ a:active {
     color:var(--light-yellow);
     background-color: var(--primary-color);
     border-radius: 10%;
-    width:20%;
     margin-left: 1%;
 }
 
