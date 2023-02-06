@@ -145,46 +145,6 @@ h1 {
     max-width: 600px;
 }
 
-.navigation-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.navigation-list li {
-    display: inline-block;
-    margin-left: 15px;   
-}
-
-.navigation-list__item {
-    font-weight: bold;
-}
-
-.navigation-list__item--active {
-    text-decoration: none;
-}
-
-.pokemon-table {
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-    border: thick solid #002263;
-    max-width: 50%;
-}
-
-.pokemon-table thead tr {
-    color: #002263;
-    text-align: left;
-}
-
-.pokemon-table td {
-    padding: 9px 15px;
-    color: #002263;
-}
-
-.pokemon-table tbody tr {
-    border-top: 1px solid #002263;
-}
-
 a {
     color: #fcffad;
 }
@@ -244,6 +204,7 @@ a:active {
     -webkit-column-gap: 50px;
        -moz-column-gap: 50px;
             column-gap: 50px;
+    min-height: 70vh;
 }
 
 .search-field{
