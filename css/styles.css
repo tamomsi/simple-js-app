@@ -197,7 +197,8 @@ a:active {
     list-style-type: none;
     padding: 5%;
     margin: 5%;
-    column-count: 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
 }
 
