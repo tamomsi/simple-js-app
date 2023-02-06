@@ -237,9 +237,10 @@ a:active {
     list-style-type: none;
     padding: 5%;
     margin: 5%;
-    -webkit-column-count: 4;
-       -moz-column-count: 4;
-            column-count: 4;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 50px 1fr 50px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     -webkit-column-gap: 50px;
        -moz-column-gap: 50px;
             column-gap: 50px;
@@ -386,3 +387,24 @@ main{
   #modal-container.is-visible {
     display: block;
   }
+
+  @media all and (max-width: 400px) {
+    .pokemon-list {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (min-width: 400px) and (max-width: 1200px) {
+    .pokemon-list {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .pokemon-list {
+        row-gap: 10px;
+        
+    }
+}
