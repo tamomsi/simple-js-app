@@ -4,7 +4,7 @@
    grid__item color: lightgrey;
    white: #ffffff;
    gold: #FFD700;
-   grey: #708090;
+   grey: #b9bbbdc2;
 */
 
 :root {
@@ -14,7 +14,7 @@
     --fire: #f76414;
     --white: #ffffff;
     --gold: #FFD700;
-    --grey: #708090;
+    --grey: #b9bbbdc2;
     --padding-zero: 0;
     --font-size-h1: 30px;
   }
