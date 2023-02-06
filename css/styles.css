@@ -295,3 +295,22 @@ main{
   #modal-container.is-visible {
     display: block;
   }
+
+  @media all and (max-width: 400px) {
+    .pokemon-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (min-width: 400px) and (max-width: 1200px) {
+    .pokemon-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .pokemon-list {
+        row-gap: 10px;
+        
+    }
+}
