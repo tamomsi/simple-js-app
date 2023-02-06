@@ -113,46 +113,6 @@ h1 {
     max-width: 600px;
 }
 
-.navigation-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.navigation-list li {
-    display: inline-block;
-    margin-left: 15px;   
-}
-
-.navigation-list__item {
-    font-weight: bold;
-}
-
-.navigation-list__item--active {
-    text-decoration: none;
-}
-
-.pokemon-table {
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-    border: thick solid var(--primary-color);
-    max-width: 50%;
-}
-
-.pokemon-table thead tr {
-    color: var(--primary-color);
-    text-align: left;
-}
-
-.pokemon-table td {
-    padding: 9px 15px;
-    color: var(--primary-color);
-}
-
-.pokemon-table tbody tr {
-    border-top: 1px solid var(--primary-color);
-}
-
 a {
     color: var(--light-yellow);
 }
