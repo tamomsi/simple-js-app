@@ -86,7 +86,7 @@ let pokemonRepository = (function () {
                 }
             }
 
-            contentElement.innerText = ('Height: ' + item.height + '\n' + '\n' + 'types: ' + pokemonTypes);
+            contentElement.innerText = ('Height: ' + item.height + '\n' + '\n' + 'Types: ' + pokemonTypes);
 
             modal.appendChild(closeButtonElement);
             modal.appendChild(titleElement);
