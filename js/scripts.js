@@ -10,17 +10,16 @@ let pokemonRepository = (function () {
     }
 
     function addListItem(pokemon) {
-        let pokemonList = document.querySelector('.pokemon-list');
-        let listItem = document.createElement('li');
-        let button = document.createElement('button');
-        button.innerText = pokemon.name;
-        button.classList.add('button-class')
-        listItem.appendChild(button);
-        pokemonList.appendChild(listItem);
-        button.addEventListener('click', function (event) {
+        let pokemonListElement = $();
+        let listItem = $('.pokemon-list');
+        let button = $('<button class="button-class" data-target="#pokemon-modal" data-toggle="modal">' + pokemon.name + '</button>');
+
+        listItem.append(button);
+        pokemonListElement.append(listItem);
+        button.on('click', function () {
             showDetails(pokemon);
-        })
-    };
+        });
+    }
 
     function loadList(pokemon) {
         return fetch(apiUrl).then(function (response) {
