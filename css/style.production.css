@@ -65,34 +65,6 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    padding: 0;
-    /*width: 10%;*/
-}
-
-.social-media-list li {
-    margin: 2px;
-}
-
-.page-header {
-    max-width: 100%;
-    padding: 20px;
-    margin: 0 5%;
-    background-color: #002263;
-    position: sticky;
-    top: 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
 }
 
 .profile {
@@ -125,7 +97,7 @@ h1 {
     max-width: 600px;
 }
 
-.button-class{
+.button-class {
     background-color: #fcffad;
     border: solid 2px;
     color: #002263;
@@ -134,7 +106,7 @@ h1 {
     text-align: center;
     display: inline-block;
     font-family: inherit;
-    font-size: 2vw;
+    font-size: 80%;
     border-radius: 50%;
     -webkit-transition: 0.4s opacity;
     -o-transition: 0.4s opacity;
@@ -156,7 +128,7 @@ h1 {
     opacity: 0.8;
 }
 
-.pokemon-list{
+.pokemon-list {
     list-style-type: none;
     padding: 5%;
     margin: 5%;
@@ -170,146 +142,23 @@ h1 {
     min-height: 70vh;
 }
 
-.search-field{
-    color:#eceaae;
-    background-color:#002263;
-    border-color: #002263 20px;
-    border-radius: 10%;
-    width: 40%;
+main {
+    margin-top: 3%;
 }
 
-.search-text{
-    color: #002263;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-}
-
-#search-button{
-    color:#fcffad;
-    background-color: #002263;
-    border-radius: 10%;
-    margin-left: 1%;
-}
-
-.search{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-}
-
-.search-field::-webkit-input-placeholder{
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: center;
-            justify-content: center;
-    text-align: center;
-}
-
-.search-field::-moz-placeholder{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.search-field:-ms-input-placeholder{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    text-align: center;
-}
-
-.search-field::-ms-input-placeholder{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    text-align: center;
-}
-
-.search-field::placeholder{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-}
-
-main{
-    margin: 0 10%;
-}
-
-#modal-container {
-    position: fixed;
-    padding: 20px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.modal {
     background:#b9bbbdc2;
-    z-index: 999; 
-    overflow: auto; 
-    display: -ms-grid; 
-    display: grid;
-    text-align: center;
-  }
+}
 
-  .modal {
-    margin: auto;
-    display: inline-block;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    background:#FFD700;
-    padding: 15px;
-    width: 100%;
-    max-width: 700px;
-    text-align: left;
+.modal-content {
     color:#002263;
-    border-radius: 50%;
     text-align: center;
-  }
+    background-color: #FFD700; 
+}
 
-  .modal-close {
-    float: right;
-    -webkit-appearance: none;
-    border: 0;
-    background: none;
+.navbar{
     color:#002263;
-    text-decoration: underline;
-  }
-
-  .modal h1 {
-    margin-top: 5%;
-  }
-
-  .modal p {
-    margin: 0;
-    text-align: center;
-  }
-
-  #modal-container {
-    display: none;
-  }
-  
-  #modal-container.is-visible {
-    display: block;
-  }
+}
 
   @media all and (max-width: 400px) {
     .pokemon-list {
