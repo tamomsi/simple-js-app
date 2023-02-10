@@ -130,7 +130,7 @@ h1 {
 
 .pokemon-list {
     list-style-type: none;
-    padding: 5%;
+    padding: 10%;
     margin: 5%;
     display: -ms-grid;
     display: grid;
