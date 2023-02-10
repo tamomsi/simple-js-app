@@ -1,3 +1,4 @@
+  /* eslint-env jquery */
 let pokemonRepository = (function () {
     let pokemonList = [];
     let apiUrl = 'https://pokeapi.co/api/v2/pokemon/?limit=150';
@@ -21,7 +22,7 @@ let pokemonRepository = (function () {
         });
     }
 
-    function loadList(pokemon) {
+    function loadList() {
         return fetch(apiUrl).then(function (response) {
             return response.json();
         }).then(function (json) {
