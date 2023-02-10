@@ -31,6 +31,10 @@ body {
     background-color: var(--secondary-color)
 }
 
+header{
+    margin-bottom: 10%;
+}
+
 h1 {
     font-size: var(--font-size-h1);
     font-weight: 700;
@@ -68,17 +72,16 @@ h1 {
     align-items: center;
 }
 
-.pokemon_photo {
+/*.pokemon_photo {
     width: 50%;
     height: auto;
     border-radius: 50%;
     float: left;
-    margin-top: 10%;
     margin-right: 0;
     float: left;
     min-width: 200px;
     max-width: 600px;
-}
+}*/
 
 .button-class {
     background-color: var(--light-yellow);
@@ -105,7 +108,7 @@ h1 {
 
 .pokemon-list {
     list-style-type: none;
-    padding: 5%;
+    padding: 10%;
     margin: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -114,7 +117,7 @@ h1 {
 }
 
 main {
-    margin-top: 3%;
+    margin-top: 10%;
 }
 
 .modal {

@@ -10,25 +10,17 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <link rel="stylesheet" type="text/css" href="dist/minified.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <header>
-        <nav class="navbar fixed-top navbar-light mx-5" style="background-color: #002263">
+        <nav class="navbar fixed-top navbar-light" style="background-color: #002263">
             <h1 style="color: #fcffad">Pokedex</h1>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" style="color: #fcffad"
-                    type="submit">Search</button>
-            </form>
         </nav>
     </header>
     <main>
-        <div class="profile">
-            <img src="img/pokemon.png" class="pokemon_photo" alt="photo of pokemon">
-        </div><br>
         <ul class="pokemon-list"></ul>
         <div class="modal fade show" id="pokemon-modal" tabindex="-1" role="dialog" aria-labelledby="pokemon-modal"
             padding-right: 18px; aria-modal="true">
@@ -49,7 +41,7 @@
         </div>
     </main>
     <footer class="page-footer">
-        <nav class="navbar fixed-bottom navbar-light mx-5" style="background-color: #002263">
+        <nav class="navbar fixed-bottom navbar-light" style="background-color: #002263">
             <div class="social-media mx-auto" style="width: 150px;">
                 <ul class="social-media-list">
                     <li>
@@ -71,10 +63,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="js/promise-polyfill.js"></script>
-    <script src="js/fetch-polyfill.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/tota11y.min.js"></script>
+    <script src="src/js/promise-polyfill.js"></script>
+    <script src="src/js/fetch-polyfill.js"></script>
+    <script src="dist/minified.js"></script>
+    <script src="src/js/tota11y.min.js"></script>
 </body>
 
 </html>

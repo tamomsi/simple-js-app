@@ -1,29 +1,15 @@
 {
     "env": {
         "es6": true,
-        "browser": true,
-        "jquery": true,
-        "commonjs": true
+        "browser": true
     },
     "extends": [
-        "eslint:recommended", 
-        "prettier"
-    ], 
-   
-
+        "eslint:recommended"
+    ],
     "rules": {
         "quotes": [
             "error",
             "single"
-        ],
-        "prettier/prettier": [
-            "error"
         ]
-    },
-
-    "plugins": [
-        "prettier", 
-        "dollar-sign",
-        "jquery"
-    ]
+    }
 }
