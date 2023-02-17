@@ -73,17 +73,6 @@ h1 {
   align-items: center;
 }
 
-.pokemon_photo {
-  width: 50%;
-  height: auto;
-  border-radius: 50%;
-  float: left;
-  margin-right: 0;
-  float: left;
-  min-width: 200px;
-  max-width: 600px;
-}
-
 .button-class {
   background-color: var(--light-yellow);
   border: solid 2px;
