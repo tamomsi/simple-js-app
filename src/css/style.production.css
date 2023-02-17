@@ -15,171 +15,171 @@
 */
 
 * {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: calc(16px + 0.390625vw);
-    line-height: 1.6;
-    background-color: #eceaae
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: calc(16px + 0.390625vw);
+  line-height: 1.6;
+  background-color: #eceaae;
+  padding-top: 40px;
 }
 
-header{
-    margin-bottom: 10%;
+header {
+  margin-bottom: 10%;
 }
 
 h1 {
-    font-size: 30px;
-    font-weight: 700;
-   }
+  font-size: 30px;
+  font-weight: 700;
+}
 
-   .page-footer {
-    clear: both;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-    background-color: #002263;
-    position: sticky;
-    bottom: 0;
-    margin: 0 5%;
-    height: 10%;
+.page-footer {
+  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #002263;
+  position: sticky;
+  bottom: 0;
+  margin: 0 5%;
+  height: 10%;
 }
 
 .page-footer__item {
-    color: #eceaae
+  color: #eceaae;
 }
 
 .social-media-list {
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .profile {
-    max-width: 80%;
-    margin: 0 auto; 
-    display: -webkit-box; 
-    display: -ms-flexbox; 
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /*.pokemon_photo {
-    width: 50%;
-    height: auto;
-    border-radius: 50%;
-    float: left;
-    margin-right: 0;
-    float: left;
-    min-width: 200px;
-    max-width: 600px;
-}*/
+      width: 50%;
+      height: auto;
+      border-radius: 50%;
+      float: left;
+      margin-right: 0;
+      float: left;
+      min-width: 200px;
+      max-width: 600px;
+  }*/
 
 .button-class {
-    background-color: #fcffad;
-    border: solid 2px;
-    color: #002263;
-    padding: 20%;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
-    font-family: inherit;
-    font-size: 80%;
-    border-radius: 50%;
-    -webkit-transition: 0.4s opacity;
-    -o-transition: 0.4s opacity;
-    transition: 0.4s opacity;
-    margin: 10%;
-    }
-
-    .button-class:hover {
-    background-color: #002263;
-    color: #fcffad;
-    cursor: pointer;
-    opacity: 0.8;
+  background-color: #fcffad;
+  border: solid 2px;
+  color: #002263;
+  padding: 20%;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 80%;
+  border-radius: 50%;
+  -webkit-transition: 0.4s opacity;
+  -o-transition: 0.4s opacity;
+  transition: 0.4s opacity;
+  margin: 10%;
 }
 
-    .button-class:focus {
-    background-color: #002263;
-    color: #fcffad;
-    cursor: pointer;
-    opacity: 0.8;
+.button-class:hover {
+  background-color: #002263;
+  color: #fcffad;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.button-class:focus {
+  background-color: #002263;
+  color: #fcffad;
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .pokemon-list {
-    list-style-type: none;
-    padding: 10%;
-    margin: 5%;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 50px 1fr 50px 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    -webkit-column-gap: 50px;
-       -moz-column-gap: 50px;
-            column-gap: 50px;
-    min-height: 70vh;
+  list-style-type: none;
+  padding: 10%;
+  margin: 5%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 50px 1fr 50px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 50px;
+  -moz-column-gap: 50px;
+  column-gap: 50px;
+  min-height: 70vh;
 }
 
 main {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 .modal {
-    background:#b9bbbdc2;
+  background: #b9bbbdc2;
 }
 
 .modal-content {
-    color:#002263;
-    text-align: center;
-    background-color: #FFD700; 
+  color: #002263;
+  text-align: center;
+  background-color: #ffd700;
 }
 
-.navbar{
-    color:#002263;
+.navbar {
+  color: #002263;
 }
 
-  @media all and (max-width: 400px) {
-    .pokemon-list {
-        -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    }
+@media all and (max-width: 400px) {
+  .pokemon-list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media all and (min-width: 400px) and (max-width: 1200px) {
-    .pokemon-list {
-        -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    }
+  .pokemon-list {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media all and (max-width: 1200px) {
-    .pokemon-list {
-        row-gap: 10px;
-        
-    }
+  .pokemon-list {
+    row-gap: 10px;
+  }
 }
