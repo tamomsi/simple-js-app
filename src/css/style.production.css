@@ -90,17 +90,6 @@ h1 {
   align-items: center;
 }
 
-/*.pokemon_photo {
-      width: 50%;
-      height: auto;
-      border-radius: 50%;
-      float: left;
-      margin-right: 0;
-      float: left;
-      min-width: 200px;
-      max-width: 600px;
-  }*/
-
 .button-class {
   background-color: #fcffad;
   border: solid 2px;
@@ -134,7 +123,7 @@ h1 {
 
 .pokemon-list {
   list-style-type: none;
-  padding: 10%;
+  padding: 2%;
   margin: 5%;
   display: -ms-grid;
   display: grid;
